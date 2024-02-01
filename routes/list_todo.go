@@ -43,7 +43,7 @@ func ListTodos(c *gin.Context) {
 
     query := db.Session.Query(`
         SELECT id, user_id, title, description, status, created, updated FROM todos
-        WHERE user_id = ? ALLOW FILTERING`, userID)
+        WHERE user_id = ? LIMIT ? ALLOW FILTERING`, userID,pageSize)
 
     iter := query.Iter()
 
