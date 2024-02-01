@@ -10,8 +10,7 @@ This is a simple Golang application for managing TODO items, using ScyllaDB as t
 - [Configuration](#configuration)
 - [Connecting to ScyllaDB via Docker](#connecting-to-scylladb-via-docker)
 - [Design Decisions](#design-decisions)
-- [Contributing](#contributing)
-- [License](#license)
+ 
 
 ## Prerequisites
 
